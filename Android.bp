@@ -16,6 +16,7 @@ android_app_import {
         presigned: true,
         privileged: true,
         skip_preprocessed_apk_checks: true,
+        overrides: ["MusicFX", "AudioFX"],
         dex_preopt: {
                 enabled: false,
         },
